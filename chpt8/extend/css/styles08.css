@@ -3,11 +3,51 @@
 /* Ian Weems.1/11/24 */
 
 table {
-	background-color: #ffe5dc;
-	border: 1px solid #fd4d0c;
-	box-shadow: #792101;
+	border: 10px solid #fd4d0c;
+	box-shadow: 1em 1em 1em #792101;
+	background-color: #f19c7a;
+	width: 65%;
+	height: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
 }
 
 body {
 	font-family: sans-serif;
+	background-color: #ffe5dc;
+}
+
+/*Table CSS*/
+caption {
+	padding: 2%;
+	font-size: 2em;
+	text-decoration: bold;
+	margin-top: 2%;
+	color: #792101;
+}
+
+th {
+	color:white;
+	background-color: #963517;
+	border: 1px solid white;
+}
+
+td {
+	border: 1px solid #792101;
+}
+
+td, th {
+	padding: .5em;
+}
+
+tr:nth-child(even) {
+	background-color: #fbe6de;
+}
+
+/*Footer CSS*/
+
+footer {
+	text-align: center;
+	padding: 2em;
+	font-size: .7em;
 }
