@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Ian Weems
+Date: 1.12.24
+File Name: styles08.css
 */
 
 /* Style for body specifies a background color */
@@ -18,6 +18,40 @@ body {
 
 /* Style rules for form elements */
 
+#cinfo {
+	display: inline-block;
+	width: 50%;
+	margin: auto;
+}
+
+fieldset {
+	margin-bottom: 2%;
+}
+
+fieldset legend {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+label {
+	display: block;
+	padding-top: 3%;
+}
+
+form #submit {
+	padding: 1em;
+	background-color: blue;
+	color: #fff;
+	border-radius: .5em;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	font-size: 1.2em;
+}
+
+#form h2 {
+	text-align: center;
+}
 
 /* Style for the footer element */
 footer {
